@@ -1,0 +1,50 @@
+[
+    {
+        "deviceName": "iPhone 16 Pro",
+        "brand": "Apple",
+        "colourOptions": [
+            { "name": "Desert Titanium", "hex": "BFA48F" },
+            { "name": "Black Titanium", "hex": "3C3C3D" },
+            { "name": "Natural Titanium", "hex": "C2BCB2" },
+            { "name": "White Titanium", "hex": "F2F1ED" }
+        ],
+        "dataOptions": [ {"name":"128GB", "price": 904}, { "name":"256GB", "price": 1004 }, { "name":"512GB", "price": 1258}, {"name":"1TB", "price": 1460} ],
+        "pricing": {
+            "monthly": 37
+        },
+        "stock": 3,
+        "isFiveG": true
+    },
+    {
+        "deviceName": "Galaxy S25",
+        "brand": "Samsung",
+        "colourOptions": [
+            { "name": "Icyblue", "hex": "C8D3DF" },
+            { "name": "Mint", "hex": "D3E8DD" },
+            { "name": "Navy", "hex": "3C5BBA" },
+            { "name": "Silver Shadow", "hex": "7F7F7E" }
+        ],
+        "dataOptions": [ {"name":"128GB", "price": 904}, { "name":"256GB", "price": 1004 }, { "name":"512GB", "price": 1258}, {"name":"1TB", "price": 1460} ],
+        "pricing": {
+            "monthly": 33
+        },
+        "stock": 50,
+        "isFiveG": true
+    },
+    {
+        "deviceName": "Pixel 9 Pro XL",
+        "brand": "Google",
+        "colourOptions": [
+            { "name": "Obsidian", "hex": "2d2d2d" },
+            { "name": "Porcelain", "hex": "efeae2" },
+            { "name": "Hazel", "hex": "878b87" },
+            { "name": "Rose Quartz", "hex": "F6D6E2" }
+        ],
+        "dataOptions": [ {"name":"128GB", "price": 904}, { "name":"256GB", "price": 1004 }, { "name":"512GB", "price": 1258}, {"name":"1TB", "price": 1460} ],
+        "pricing": {
+            "monthly": 30
+        },
+        "stock": 0,
+        "isFiveG": true
+    }
+]

@@ -1,0 +1,71 @@
+.storage-selector-container {
+    width: 100%;
+}
+
+.storage-dropdown {
+    position: relative;
+    width: 100%;
+}
+
+.selected-storage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropdown-arrow {
+    font-size: 12px;
+    color: #666;
+}
+
+.storage-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    z-index: 10;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.storage-dropdown:hover .storage-options,
+.storage-dropdown:focus-within .storage-options {
+    max-height: 300px;
+    border-top: 1px solid #ddd;
+}
+
+.storage-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.storage-option:hover,
+.storage-option.selected {
+    background-color: #f5f5f5;
+}
+
+.storage-option:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.storage-name {
+    font-weight: 500;
+}
+
+.storage-price {
+    color: #666;
+}
