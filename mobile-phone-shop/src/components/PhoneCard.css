@@ -85,6 +85,8 @@
 }
 
 .details-button {
+    display: block; /* Ensure it's a block element */
+    width: 100%; /* Make it full width of the container */
     background-color: #d32f2f;
     color: white;
     border: none;
@@ -94,6 +96,8 @@
     cursor: pointer;
     margin-top: 15px;
     transition: background-color 0.2s;
+    font-weight: 500; /* Add medium font weight */
+    text-align: center; /* Center the text */
 }
 
 .details-button:hover {
